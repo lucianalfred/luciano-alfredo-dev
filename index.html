@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Desenvolvedor</title>
+    <title>Luciano Alfredo | Software Developer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <h1>{Luciano Alfredo}</h1>
+                <a href="#home" class="logo">LUCIANO<span>ALFREDO</span></a>
                 <nav>
                     <a href="#home">Home</a>
                     <a href="#projects">Projects</a>
@@ -24,14 +24,15 @@
 
     <section class="hero" id="home">
         <div class="container">
-            <h2>Hi, I'm Luciano, and I'm a Developer</h2>
-            <p>Creating elegant solutions to complex problems through clean code and intuitive design.</p>
+            <h2>Building the future with <span>clean code</span> and intuitive design.</h2>
+            <p>Hi, I'm Luciano. A developer passionate about creating elegant solutions to complex problems.</p>
             <div class="tech-stack">
-                <span class="tech-badge">C</span>
+                <span class="tech-badge">C Language</span>
                 <span class="tech-badge">Python</span>
                 <span class="tech-badge">Node.js</span>
-                <span class="tech-badge">Kotlin/android</span>
+                <span class="tech-badge">Kotlin/Android</span>
                 <span class="tech-badge">SQL</span>
+                <span class="tech-badge">Java</span>
             </div>
         </div>
     </section>
@@ -41,73 +42,64 @@
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
 
-                     <div class="project-card">
+                <div class="project-card">
                     <div class="project-image">
-                        <img class="project-image-fig" src="img/express_app_clone.png" />
+                        <img class="project-image-fig" src="img/express_app_clone.png" alt="Multicaixa Express Clone" />
                     </div>
                     <div class="project-content">
-                        <h3>A Muliticaixa Express Clone</h3>
+                        <h3>Multicaixa Express Clone</h3>
                         <p>
-                            A functional and educational clone of Mulicaixa Express, developed with the goal of studying, practicing, and demonstrating skills in mobile development, APIs, software architecture, and frontend-backend integration.
-
-This project is part of my personal portfolio and has no official affiliation with EMIS or the original Mulicaixa Express application.
+                            A functional and educational clone of Multicaixa Express, focusing on demonstrating skills in mobile development, APIs, and frontend-backend integration.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">Python Language</span>
-                            <span class="tag">Kotlin/Android</span>
-                            <span class="tag">Clean code</span>
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Android</span>
+                            <span class="tag">API Integration</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.linkedin.com/posts/lucian-alfred-7babbb216_a-month-ago-i-completed-another-challenge-activity-7373188826594258944-BQIW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADajrb4BFE1Crwm5VKE0H5_5RopOxGuhjFc"
-                                class="btn btn-primary">See Project</a>
-                            <a href="https://github.com/lucianalfred/Multicaixa_Express_clone/blob/main/README.md" class="btn btn-secondary">GitHub</a>
+                            <a href="https://github.com/lucianalfred/Multicaixa_Express_clone" class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/Multicaixa_Express_clone" class="btn btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
 
-                 <div class="project-card">
+                <div class="project-card">
                     <div class="project-image">
-                        <img class="project-image-fig" src="img/githubstarexplorer.png" />
+                        <img class="project-image-fig" src="img/githubstarexplorer.png" alt="GitHub Stars Explorer" />
                     </div>
                     <div class="project-content">
-                        <h3>github stars explore</h3>
+                        <h3>GitHub Stars Explorer</h3>
                         <p>
-                            A Python application that fetches and visualizes the most-starred Python repositories on GitHub.
+                            A Python application that consumes the GitHub API to visualize repositories with the most stars, facilitating the discovery of popular projects.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">Python Language</span>
-                            <span class="tag">Github API</span>
-                            <span class="tag">Clean code</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">GitHub API</span>
+                            <span class="tag">Data Viz</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.linkedin.com/posts/lucian-alfred-7babbb216_a-month-ago-i-completed-another-challenge-activity-7373188826594258944-BQIW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADajrb4BFE1Crwm5VKE0H5_5RopOxGuhjFc"
-                                class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/github-stars-explorer" class="btn btn-primary">See Project</a>
                             <a href="https://github.com/lucianalfred/github-stars-explorer" class="btn btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="project-card">
                     <div class="project-image">
-                        <img class="project-image-fig" src="img/gnl.png" />
+                        <img class="project-image-fig" src="img/gnl.png" alt="Get Next Line" />
                     </div>
                     <div class="project-content">
-                        <h3>get_next_line</h3>
+                        <h3>Get Next Line</h3>
                         <p>
-                            This project led us to explore file manipulation in C in depth, implementing a function
-                            capable of reading line by line from a file or input, regardless of the text size or the
-                            buffer used.
-
+                            Implementation in C of a function that reads line by line from a file descriptor, exploring memory manipulation and low-level buffering.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">C language</span>
-                            <span class="tag">Memmory allocation</span>
-                            <span class="tag">Clean code</span>
+                            <span class="tag">C Language</span>
+                            <span class="tag">Memory Management</span>
+                            <span class="tag">Low Level</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.linkedin.com/posts/lucian-alfred-7babbb216_a-month-ago-i-completed-another-challenge-activity-7373188826594258944-BQIW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADajrb4BFE1Crwm5VKE0H5_5RopOxGuhjFc"
-                                class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/42Cursus_gnl" class="btn btn-primary">See Project</a>
                             <a href="https://github.com/lucianalfred/42Cursus_gnl" class="btn btn-secondary">GitHub</a>
                         </div>
                     </div>
@@ -115,57 +107,64 @@ This project is part of my personal portfolio and has no official affiliation wi
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img class="project-image-fig" src="img/ft_printf.jpg" />
+                        <img class="project-image-fig" src="img/ft_printf.jpg" alt="ft_printf" />
                     </div>
                     <div class="project-content">
                         <h3>ft_printf</h3>
                         <p>
-                            t's one of the most commonly used functions in the C language, present in practically every
-                            program, and at first glance it seems simple... but behind it lies a world of detail.
-
-                            In the ft_printf project at 42 Luanda I faced the challenge of implementing my own version
-                            of this function from scratch.
+                            Recreation of the famous printf function from the C standard library, covering variadic functions and support for multiple formatting types.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">C language</span>
-                            <span class="tag">variadic functions</span>
-                            <span class="tag">Clean code</span>
+                            <span class="tag">C Language</span>
+                            <span class="tag">Variadic Functions</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.linkedin.com/posts/lucian-alfred-7babbb216_have-you-ever-imagined-recreating-the-printf-activity-7374275980384681984-Hu2j?utm_source=share&utm_medium=member_desktop&rcm=ACoAADajrb4BFE1Crwm5VKE0H5_5RopOxGuhjFc"
-                                class="btn btn-primary">See Project</a>
-                            <a href="https://github.com/lucianalfred/42Cursus_printf"
-                                class="btn btn-secondary">GitHub</a>
+                            <a href="https://github.com/lucianalfred/42Cursus_printf" class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/42Cursus_printf" class="btn btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img class="project-image-fig" src="img/libft.png" />
+                        <img class="project-image-fig" src="img/libft.png" alt="Libft" />
                     </div>
                     <div class="project-content">
                         <h3>Libft</h3>
                         <p>
-                            It was more than just a programming exercise—it was a deep dive into libc, exploring
-                            concepts like memory manipulation, linked lists, and much more.
-
-                            Through mistakes, corrections, and discoveries, I realized that learning to program is,
-                            above all, learning to solve problems and never give up when faced with them.
-
+                            My own library of standard C functions, recreating essential functions like string manipulation, memory, and linked lists.
                         </p>
                         <div class="project-tags">
-                            <span class="tag">C language</span>
-                            <span class="tag">Memmory allocation</span>
-                            <span class="tag">Clean code</span>
+                            <span class="tag">C Language</span>
+                            <span class="tag">Data Structures</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://www.linkedin.com/posts/lucian-alfred-7babbb216_a-little-while-ago-i-reached-an-important-activity-7361163309590507520-I-mE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADajrb4BFE1Crwm5VKE0H5_5RopOxGuhjFc" class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/42Cursus_Libft" class="btn btn-primary">See Project</a>
                             <a href="https://github.com/lucianalfred/42Cursus_Libft" class="btn btn-secondary">GitHub</a>
                         </div>
                     </div>
                 </div>
 
+                <div class="project-card">
+                    <div class="project-image">
+                        <img class="project-image-fig" src="img/bookstore.png" alt="Bookstore API" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Bookstore Java API</h3>
+                        <p>
+                            A book management system that consumes external APIs, utilizing native Java 11+ HttpClient, Stream API, and CSV data processing.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">Streams</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/lucianalfred/bookstore" class="btn btn-primary">See Project</a>
+                            <a href="https://github.com/lucianalfred/bookstore" class="btn btn-secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -174,13 +173,13 @@ This project is part of my personal portfolio and has no official affiliation wi
     <footer id="contact">
         <div class="container">
             <h3>Let's work together?</h3>
-            <p style="color: #5a6c7d; margin-top: 0.5rem;">Get in touch and let's create something amazing!</p>
+            <p style="color: var(--clr-text-muted); margin-top: 0.5rem;">Get in touch and let's create something amazing.</p>
             <div class="social-links">
-                <a href="https://github.com/lucianalfred/" title="GitHub">⚡</a>
-                <a href="https://www.linkedin.com/in/lucian-alfred-7babbb216/" title="LinkedIn">💼</a>
-                <a href="#" title="Email">📧</a>
+                <a href="https://github.com/lucianalfred/" title="GitHub">GH</a>
+                <a href="https://www.linkedin.com/in/lucian-alfred-7babbb216/" title="LinkedIn">IN</a>
+                <a href="mailto:luciano@example.com" title="Email">@</a>
             </div>
-            <p style="margin-top: 2rem; color: #5a6c7d; font-size: 0.9rem;">© 2025 - Luciano Alfredo</p>
+            <p style="margin-top: 2rem; color: var(--clr-text-muted); font-size: 0.85rem;">&copy; 2025 Luciano Alfredo. All rights reserved.</p>
         </div>
     </footer>
 </body>
